@@ -58,7 +58,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #efeff4;
+  background: #fdfdff;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -257,3 +257,9 @@ html.android .page-from-center-to-right:before {
     transform: translate3d(0, 0, 0);
   }
 }
+@media (max-width: 700px) {
+        .page-content {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
