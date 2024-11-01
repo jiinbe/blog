@@ -13,7 +13,7 @@ margin: 0;
 padding: 0;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;        
 }
-main {
+.main {
 width: 600px;
 margin: 5em auto;
 padding: 2em;
@@ -26,7 +26,7 @@ color: #38488f;
 text-decoration: none;
 }
 @media (max-width: 700px) {
-main {
+.main {
 margin: 0 auto;
 width: auto;
 }
@@ -39,7 +39,10 @@ width: auto;
 <!-- View -->
 <div class="view view-main">
 <!-- Pages -->
-<main>
+<div class="pages">
+<!-- Home page -->
+<div class="page index" data-page="index">
+<div class="main">
 <h1>Example Domain</h1>
 <p>This domain is for use in illustrative examples in documents. You may use this
 domain in literature without prior coordination or asking for permission.</p>
