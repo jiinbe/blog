@@ -23,7 +23,7 @@ body {
   line-height: 1.4;
   width: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #f0f0f2;
+  background: #f0f0f2;
   overflow: hidden;
 }
 
