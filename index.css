@@ -87,6 +87,10 @@ body {
   height: 100%;
   position: relative;
   z-index: 1;
+  width: 600px;
+  margin: 5em auto;
+  padding: 2em;
+  background-color: #fdfdff;
 }
 .swipeback-page-shadow {
   position: absolute;
