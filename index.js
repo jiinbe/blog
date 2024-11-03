@@ -1,14 +1,3 @@
-/**
- * Spa.js 1.0.0
- * A very simple single-page-application Framework
- * 
- * author: Hejx
- * https://github.com/Alex-fun/simple-single-page-application-demo
- * 
- * Licensed under MIT
- */
-
-
 (function(window, undefined){
     window.Spa = function(){
         var app = this,
