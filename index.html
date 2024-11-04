@@ -34,12 +34,6 @@ border: 1px solid;
 display: block;
 text-align: center;
 }
-input[type="file"] {
-display: none;
-}
-button[onclick*="()"] {
-cursor: pointer;
-}
 </style>
 </head>
 
@@ -69,8 +63,10 @@ cursor: pointer;
 <div class="page-content">
 <p><canvas id="preview" width="1024" height="1035" title="Preview"></canvas></p>
 <p>
+<label>
 <input type="file" id="upload" accept="image/*">
-<button class="btn btn-primary" onclick="selectFile()">Pilih File</button>
+PILIH FILE
+</label>
 <a download="twibbon.png" class="btn" id="download-link" href="">Download</a>
 <button class="btn btn-info" id="share" style="display: none;">Share</button>
 </p>
